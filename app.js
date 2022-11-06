@@ -155,6 +155,11 @@ app.get('/health',(req,res)=>{
     res.status(200).json({"status": "the site is working"})
 })
 
+app.get('/',(req,res)=>{
+    res.status(200).json({"status": "the site is running"})
+})
+
+
 
 // bot.launch()
 // .then(()=>console.log('bot is running'))
