@@ -161,12 +161,14 @@ app.get('/',(req,res)=>{
 
 
 
-// bot.launch()
-// .then(()=>console.log('bot is running'))
-// .catch(e=>console.log(e))
+
 
 const port = process.env.PORT || 4858
 
 app.listen(port, ()=>{
     console.log("The application running on port "+ port)
 })
+
+// bot.launch()
+// .then(()=>console.log('bot is running'))
+// .catch(e=>console.log(e))
